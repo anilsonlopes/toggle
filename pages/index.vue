@@ -31,6 +31,20 @@ const disponibility = useState<Disponibility>(
   "disponibility",
   () => "undefined"
 );
+
+const titlePage = computed(() => {
+  if (disponibility.value === "disponible") {
+    return "Disponível";
+  } else if (disponibility.value === "indisponible") {
+    return "Indisponível";
+  } else {
+    return "Indefinido";
+  }
+});
+
+useSeoMeta({
+  title: titlePage,
+});
 </script>
 
 <style scoped>

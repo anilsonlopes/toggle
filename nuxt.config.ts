@@ -26,8 +26,8 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    name: "Toggle — Simplesmente mostre se você está disponível ou ocupado",
+    name: "Toggle",
     description:
-      "Toggle é um app minimalista que permite alternar rapidamente seu status entre disponível e ocupado. Sem distrações, sem ruído — apenas a informação que importa, do jeito mais direto possível.",
+      "Simplesmente mostre se você está disponível ou ocupado. Sem distrações, sem ruído — do jeito mais direto possível.",
   },
 });
