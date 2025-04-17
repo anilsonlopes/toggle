@@ -9,7 +9,7 @@
     @click="toggleDisponibility"
   >
     <h1 class="text-white font-mono text-6xl select-none">
-      {{ disponibility }}
+      {{ titlePage }}
     </h1>
   </main>
 </template>
