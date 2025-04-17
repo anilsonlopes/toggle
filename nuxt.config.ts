@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxt/fonts",
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/seo",
   ],
   fonts: {
     families: [
@@ -23,5 +24,10 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  site: {
+    name: "Toggle — Simplesmente mostre se você está disponível ou ocupado",
+    description:
+      "Toggle é um app minimalista que permite alternar rapidamente seu status entre disponível e ocupado. Sem distrações, sem ruído — apenas a informação que importa, do jeito mais direto possível.",
   },
 });
