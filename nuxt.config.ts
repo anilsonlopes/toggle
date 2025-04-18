@@ -31,4 +31,7 @@ export default defineNuxtConfig({
     description:
       "Simplesmente mostre se você está disponível ou ocupado. Sem distrações, sem ruído — do jeito mais direto possível.",
   },
+  typescript: {
+    typeCheck: true,
+  },
 });
