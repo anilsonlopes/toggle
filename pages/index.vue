@@ -42,8 +42,28 @@ const titlePage = computed(() => {
   }
 });
 
+const faviconPage = computed(() => {
+  if (disponibility.value === "disponible") {
+    return "/favicon-green.ico";
+  } else if (disponibility.value === "indisponible") {
+    return "/favicon-red.ico";
+  } else {
+    return "/favicon.ico";
+  }
+});
+
 useSeoMeta({
   title: titlePage,
+});
+
+useHead({
+  link: [
+    {
+      rel: "icon",
+      type: "image/icon",
+      href: faviconPage,
+    },
+  ],
 });
 </script>
 
