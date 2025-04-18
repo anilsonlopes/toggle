@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/seo",
+    "@vite-pwa/nuxt",
   ],
   fonts: {
     families: [
